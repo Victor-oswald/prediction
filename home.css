@@ -14,6 +14,7 @@
     padding:10px 8px;
     text-decoration:dotted;
     overflow:hidden;
+    max-height: 10%;
 }
 .dropdown{
     float:left;
