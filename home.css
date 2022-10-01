@@ -1,7 +1,7 @@
 .navbar{
     overflow: hidden;
     background-color: #333;
-    width:100%;
+    width:90%;
     float: right;
     position:-webkit-sticky;
     position:sticky;
@@ -11,6 +11,7 @@
     float:right;
     font-size:100%;
     color:white;
+    padding:10% 8%;
     text-decoration:dotted;
     overflow:hidden;
 }
