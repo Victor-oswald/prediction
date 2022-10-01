@@ -1,0 +1,113 @@
+.fixtures{
+height: 100%;
+width:300px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: black;
+overflow:hidden;
+padding-top: 20px;
+}
+.fixtures a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.fixtures a:hover{
+    color: #f1f1f1;
+}
+.fixturebody{
+    margin-left: 300px;
+    padding: 0px 10px;
+}
+.head{
+    background-color: brown;
+    text-align: center;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+}
+.tb{
+    background-color: black;
+    width:100%;
+    text-align: left;
+}
+.tb a{
+    font-size: x-large;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    color:#f1f1f1;
+    overflow: hidden;
+
+}
+.tb a:hover{
+    background-color:red;
+    font-size: xx-large;
+}
+.tb-content{
+    text-transform: uppercase;
+    font-size: x-large;
+
+}
+.premier-tb{
+    width:fit-content;
+    background-color:
+}
+.premier-drop-content{
+    display: none;
+ z-index: 1;
+ width:40%;
+overflow:auto;
+}
+.premier-drop-content a{
+    color:black;
+    font-size:large;
+    display:inline-block;
+    overflow: auto;
+
+
+
+}
+.premier-mbtn{
+    border:none;
+    background-color: black;
+    color:white;
+    font-size: xx-large;
+    text-transform:uppercase;
+}
+.premier-mbtn:hover{
+    background-color: red;
+
+}
+.premier-tb:hover .premier-drop-content{
+    display:block;
+
+}
+#serie-a, #premier, #Tp-Gscorers, .groupA, .groupB, .groupC, .groupD, .groupE, .groupF, .groupG, .groupH{
+    border-collapse:collapse;
+    width:70%;
+}
+#serie-a td, #serie-a th, #premier td , #premier th, #Tp-Gscorers td, #Tp-Gscorers th, .groupA td, .groupB td, .groupC td, .groupD td, .groupE td, .groupF td, .groupG td, .groupH td{
+    border:1px solid green;
+    padding:10px;
+
+}
+#serie-a th, #premier th, #Tp-Gscorers th, .groupA th, .groupB th, .groupC th, .groupD th, .groupE th, .groupF th, .groupG th, .groupH th {
+    text-align: left;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:blue;
+    color:white;
+    width:5%;
+    height:80%;
+}
+#serie-a tr:nth-child(even),#premier tr:nth-child(even), #Tp-Gscorers tr:nth-child(even), .groupA tr:nth-child(odd), .groupB tr:nth-child(odd), .groupC tr:nth-child(odd), .groupD tr:nth-child(odd), .groupE tr:nth-child(odd), .groupF tr:nth-child(odd), .groupG tr:nth-child(odd), .groupH tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+#serie-a tr:hover,#premier tr:hover, #Tp-Gscorers tr:hover,.groupA tr:hover, .groupB tr:hover, .groupC tr:hover, .groupD tr:hover, .groupE tr:hover, .groupF tr:hover, .groupG tr:hover, .groupH tr:hover{
+    background-color: #ddd;
+}

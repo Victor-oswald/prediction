@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword"
+        content="betting; lottery; prediction; bet; football betting; sure prediction; game prediction; football correct score
+        football; football home and away games; betting odds; betting sites; full time scores; match fixtures; kick off; playoffs;" />
+    <title>OSWALD</title>
+    <link rel="icon" type="image/x-icon" href="OSWALD.jpg" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <span class="menu" style="font-size:30px; cursor:pointer" onclick="openNavigation()">MENU</span>
+            <a href="higlights.html" target="_blank">Highlights</a>
+            <a href="Match updates" target="_blank">Match Analysis</a>
+            <a href="Football news" target="_blank">Football news</a>
+        </div>
+        </br></br></br>
+        <img alt="icon" style="width:150px;height:150px;border:none;border-radius:80%; position:fixed;top:0"
+            src="oswald1.jpg.png" />
+        </br></br></br>
+        <div id="mySidebar" class="sidebar">
+            <h1 style="color:blue; font-size:xx-large">MENU</h1></br></br><br>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">&times;</a>
+            <button id="predbtn">Predictions</button></br></br>
+            <button type="button" onclick="table()" id="htbbtn">Tables</button></br></br>
+            <div class="htbbtn-content" id="table-content">
+                <a href="premier league tables.html">premier league</a></br></br>
+                <a href="serie a table.html">Serie A table</a></br>
+                <a href="Top goal scorers.html">EPL Top goal scorers</a></br>
+                <a href="champions league table.html">Champions League</a>
+            </div>
+            <button id="hfbtn" onclick="fixtures()">Fixtures</button></br></br>
+            <div class="hfbtn-content" id="fixture-content">
+                <a href="fixtures.html">Serie A </a></br></br>
+                <a href="premier league.html">Premier league</a></br>
+                <a href="">Champions league</a></br></br>
+                <a href="">Laliga </a></br></br>
+                <a href="">League 1</a></br></br>
+                <a href="">Bundesliga</a></br></br>
+            </div>
+            <button id="abtbtn">About us</button>
+        </div>
+        <script>
+            function openNavigation() {
+                document.getElementById("mySidebar").style.width = "250px"
+            }
+            function closeNavigation() {
+                document.getElementById("mySidebar").style.width = "0px";
+
+            }
+
+            function table() {
+                var tmenu = document.getElementById("table-content");
+                var tbutton = document.getElementById("htbbtn")
+                if (tmenu.style.display == "none") {
+                    tmenu.style.display = "inline-block"
+                } else {
+                    tmenu.style.display = "none"
+                }
+            }
+            function fixtures() {
+                var fmenu = document.getElementById("fixture-content")
+                if (fmenu.style.display == "none") {
+                    fmenu.style.display = "block"
+                } else {
+                    fmenu.style.display = "none"
+                }
+            }
+        </script>
+
+
+        <div class="page">
+            <center></br></br>
+
+                <div>
+                    <input type="search" placeholder="search anything" name="search"
+                        style="width: 50%; height:60px;background-color: aliceblue;" />
+                    <button type="submit" style="height:50px;">search</button>
+                </div>
+            </center>
+
+            <p class="quote"><i>Over the years now, betting has become the means of extra income for sports lovers more
+                    especially the football lovers</br>
+                    it really contributes immensly for the livelihoods of many individuals who take interest in it.</br>
+                    but the question asked by many is where exactly can these games be analised accurately.</br> Though
+                    matches can't be analysed 100% acurately,
+                    but based on statistics,</br> it can be analised almost accurately by some experts and here we are
+                    to provide you with the best match predictions based solely on statistics.
+                </i></p>
+            <h1 class="fix">MATCH FIXTURES FOR THE WEEK</h1>
+            </br></br></br>
+            <h1 style="color:blue">ENGLAND</h1>
+            <div class="eng">
+                <div style="background-color:grey;font-size: larger;">Saturday 1st October</div>
+                <h4>ARSENAL VS TOTTENHAM </h4>
+                <p>FT 3:1</p></br>
+                <h4>BOURNAMOUTH VS BRENTFORD </h4>
+                <p>15:00</p></br>
+                <h4>CRYSTAL PALACE VS CHELSEA</h4>
+                <P>15:00</P></br>
+
+                <h4>FULHAM VS NEWCASTLE</h4>
+                <p>15:00</p></br>
+                <h4>LIVERPOOL VS BRIGHTON</h4>
+                <p>15:00</p></br>
+                <h4> WEST HAM VS WOLVERHAMPTON</h4>
+                <p>17:30</p></br>
+                <h4>SOUTHAMPTON VS EVERTON </h4>
+                <p>15:00</p></br>
+                <div style="background-color:grey; font-size:larger">sunday 2nd October</div>
+                <h4>MAN CITY VS MAN UTD</h4>
+                <p>14:00</p></br>
+                <h4>LEEDS VS ASTON VILLA</h4>
+                <p>16:30</p></br>
+                <div style="background-color:grey;font-size:Larger">Monday 3rd October</div>
+                <h4>LEICESTER VS NOTHINGHAM FOREST<p>20:00</p>
+                </h4>
+            </div></br></br>
+            <button id="engbtn" onclick="viewAll()">view all</button>
+            <div id="engother">
+                <h1 style="color:blue">ITALY</h1>
+                <div class="ita">
+                    <div style="background-color:grey;font-size:larger">Saturday 1st October</div>
+                    <h4>NAPOLI VS TORINO</h4>
+                    <p>14:00</p></br>
+                    <h4>INTER MILAN vs ROMA</h4>
+                    <p>17:00</p></br>
+                    <h4>EMPOLI VS AC MILAN</h4>
+                    <p>19:45</p></br>
+                    <div style="background-color:grey;font-size:larger">Sunday 2nd October</div>
+                    <h4>LAZIO VS SPEZIA CALCIO</h4>
+                    <p>11:30</p></br>
+                    <h4>LECCE VS CREMONESE</h4>
+                    <p>14:00</p></br>
+                    <h4>SAMPDORIA VS AC MONZA</h4>
+                    <p>14:00</p></br>
+                    <h4>SASSUOLO VS SALERNITANA</h4>
+                    <p>14:00</p></br>
+                    <h4>ATALANTA VS FIORENTINA</h4>
+                    <p>17:00</p></br>
+                    <h4>JUVENTUS VS BOLOGNA</h4>
+                    <p>19:45</p></br>
+                    <div style="background-color:grey;font-size:larger">Monday 3rd October</div>
+                    <h4>HELLAS VERONA VS UDINESE</h4>
+                    <p>19:45</p></br>
+                </div></br></br>
+                <h1 style="color:blue">FRANCE</h1>
+                <div class="fra">
+                    <div style="background-color:grey;font-size:larger">Saturday 1st October</div>
+                    <h4>STRASBOURG VS RENNES</h4>
+                    <p>16:00</p>
+                    <h4>PSG VS NICE</h4>
+                    <p>20:00</p>
+                    <div style="background-color:grey;font-size:larger">Sunday 2nd October</div>
+                    <h4>LORIENT VS LILLE</h4>
+                    <p>12:00</p></br>
+                    <h4>AC AJACCIO VS CLERMONT FOOT</h4>
+                    <p>14:00</p></br>
+                    <h4>AUXERRE VS BREST</h4>
+                    <p>14:00</p></br>
+                    <h4>TOLOUSE VS MONTPELLIER</h4>
+                    <p>14:00</p></br>
+                    <h4>TROYES VS REIMS</h4>
+                    <p>14:00</p></br>
+                    <h4>MONACO VS NANTES</h4>
+                    <p>16:05</p></br>
+                    <h4>RC LENS VS LYON</h4>
+                    <p>19:45</p></br>
+                    <div style="background-color:grey;font-size:larger">Friday 7th October</div>
+                    <h4>LYON VS TOLOUSE</h4>
+                    <p>20:00</p></br>
+                </div></br></br>
+                <h1 style="color:blue">SPAIN</h1>
+                <div class="spa">
+                </div></br></br>
+                <h1 style="color:blue">OTHER COUNTRIES</h1>
+                <div class="other">
+                </div>
+            </div>
+            <center>
+                <div>
+                    <a href="##" class="fa fa-facebook"></a>
+                    <a href="##" class="fa fa-telegram"></a>
+                    <a href="##" class="fa fa-linkedin"></a>
+                    <a href="https://youtube.com/channel/UCq-o4MyDCushNHS9VONNRiQ" class="fa fa-youtube"></a>
+                </div>
+            </center>
+            <center>
+                <div class="end">
+                    <h1>CC: oswald 2022|| All right reserved</h1>
+
+                </div>
+            </center>
+            <script>
+                document.getElementById("engother").style.display = "none";
+                function viewAll() {
+                    var more =
+                        document.getElementById("engother");
+                    var btnctrl =
+                        document.getElementById("engbtn");
+                    if (more.style.display === "none") {
+                        more.style.display = "block";
+                        btnctrl.innerHTML = "view less"
+                    } else {
+                        more.style.display = "none";
+                        btnctrl.innerHTML = "view all";
+                    }
+                };
+            </script>
+            </div>
+</body>
+
+</html>
