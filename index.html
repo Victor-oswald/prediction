@@ -27,7 +27,7 @@
         <div id="mySidebar" class="sidebar">
             <h1 style="color:blue; font-size:xx-large">MENU</h1></br></br><br>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">&times;</a>
-            <button id="predbtn">Predictions</button></br></br>
+            <button id="predbtn" onclick="Prediction()">Predictions</button></br></br>
             <button type="button" onclick="table()" id="htbbtn">Tables</button></br></br>
             <div class="htbbtn-content" id="table-content">
                 <a href="premier league tables.html">premier league</a></br></br>
@@ -44,7 +44,7 @@
                 <a href="">League 1</a></br></br>
                 <a href="">Bundesliga</a></br></br>
             </div>
-            <button id="abtbtn">About us</button>
+            <button id="abtbtn" onclick="About()">About us</button>
         </div>
         <script>
             function openNavigation() {
@@ -72,10 +72,12 @@
                     fmenu.style.display = "none"
                 }
             }
+            function Prediction(){
             var prediction=document.getElementById("predbtn");
-            prediction=window.location.href="prediction.html";
+            prediction=window.location.href="prediction.html";}
+            function About(){
 var about=document.getElementById("abtbtn");
-about=window.location.href="about us.html";
+about=window.location.href="about us.html";}
         </script>
 
 
