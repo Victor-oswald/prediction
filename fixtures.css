@@ -1,6 +1,6 @@
 .fixtures{
 height: 100%;
-width:30%;
+width:50%;
 position: fixed;
 z-index: 1;
 top: 0;
@@ -118,6 +118,9 @@ overflow:auto;
  background-color: black; 
 float:left;
 height: fit-content;
+padding: none;
+position: sticky;
+top:0;
 }
 .fdrop-content{
  color:white;
