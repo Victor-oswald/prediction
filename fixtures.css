@@ -123,9 +123,9 @@ float:left;
  font: size 100%;
 
 }
-.fdrop-content :hover{
+.fdrop-content:hover{
     color:red;
 }
-.fdrop :hover .fixtures{
+.fdrop:hover .fixtures{
     display:block
 }
