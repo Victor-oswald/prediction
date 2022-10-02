@@ -117,6 +117,7 @@ overflow:auto;
  width:fit-content;
  background-color: black; 
 float:left;
+height: fit-content;
 }
 .fdrop-content{
  color:white;
