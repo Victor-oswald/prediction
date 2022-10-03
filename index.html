@@ -78,6 +78,18 @@
             function About(){
 var about=document.getElementById("abtbtn");
 about=window.location.href="about us.html";}
+const result=new[
+    "<a href='fixtures.html'>fixtures</a>",
+    "<a href='premierleague tables.html'>EPL Table</a>",
+    "<a href='seria A table.html'>Seria A Table</a>"
+]
+var x=document.getElementById("search");
+var y=x.value;
+for(var i=0; i<result.length; ++i){
+    if(y==i){
+        document.getElementById("search-result").style.display="block";
+    }
+}
         </script>
 
 
@@ -85,10 +97,11 @@ about=window.location.href="about us.html";}
             <center></br></br>
 
                 <div>
-                    <input type="search" placeholder="search anything" name="search"
+                    <input type="search" id="search" placeholder="search anything" name="search"
                         style="width: 50%; height:30px;background-color: aliceblue;" />
                     <button type="submit" style="height:30px;">search</button>
                 </div>
+                <div id="search-result" style="display:none"></div>
             </center>
 
             <p class="quote"><i>Over the years now, betting has become the means of extra income for sports lovers more
