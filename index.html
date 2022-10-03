@@ -78,15 +78,13 @@
             function About(){
 var about=document.getElementById("abtbtn");
 about=window.location.href="about us.html";}
-const result=new[
-    "<a href='fixtures.html'>fixtures</a>",
-    "<a href='premierleague tables.html'>EPL Table</a>",
-    "<a href='seria A table.html'>Seria A Table</a>"
+const result=[
+    "scores", "predictions", "fixtures","table","news","About"
 ]
-var x=document.getElementById("search");
+var x=document.getElementById("search").value;
 var y=x.value;
 for(var i=0; i<result.length; ++i){
-    if(y==i){
+    if(y==[i]){
         document.getElementById("search-result").style.display="block";
     }
 }
