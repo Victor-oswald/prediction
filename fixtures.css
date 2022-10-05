@@ -133,3 +133,34 @@ top:0;
 .fdrop:hover .fixtures{
     display:block
 }
+#tpgoalmenu{
+    display:none;
+    width:fit-content;
+    background-color: black;
+    position: fixed;
+    left:0;
+    z-index: 1;
+}
+#topgoalmenu a{
+    color:#818181;
+    font-size:x-large;
+    display:inline-block;
+
+
+
+}
+#tpgoalmenubtn, #tpgoalhomebtn, #tpgoalpredictionbtn, #tpgoalnewsbtn{
+    font-size: x-large;
+    padding-right: 3%;
+    padding-left: 3%;
+    text-transform: uppercase;
+    color:white;
+    background-color: inherit;
+}
+#tpgoalmenubtn:hover, #tpgoalhomebtn:hover, #tpgoalpredictionbtn:hover, #tpgoalnewsbtn:hover{
+    background-color: red;
+    font-size:xx-large ;
+}
+#tpgoalmenubtn :hover .tpgoalmenu a{
+    display:block;
+}
