@@ -171,11 +171,11 @@
         top:0;
         left:0;
         background-color:#111;
-        overflow-x:auto;
+        overflow-x:scroll;
         transition:0.5s;
         padding-top:60px;
         position:fixed;
-        overflow: auto;
+        overflow-y: visible;
     }
     .sidebar a{
         padding:8px 8px 16px 32px;
