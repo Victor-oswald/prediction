@@ -175,6 +175,7 @@
         transition:0.5s;
         padding-top:60px;
         position:fixed;
+        overflow: auto;
     }
     .sidebar a{
         padding:8px 8px 16px 32px;
