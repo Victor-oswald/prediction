@@ -164,3 +164,30 @@ top:0;
 #tpgoalmenubtn :hover .tpgoalmenu a{
     display:block;
 }
+#vip{
+    color:red;
+    padding:none;
+    font-size:25px;
+    animation:infinite;
+    animation-name: vip;
+    animation-duration: 0.5s;
+    background-color: inherit;
+    border:none ;
+    float:right;
+    position:static;
+    right:0;
+    top:0;
+
+}
+@keyframes vip{
+    from{font-size:25px;}
+    to {font-size:70px;}
+}
+#predhome, #predanalysis, #prednews{
+    text-transform: uppercase;
+    font-size: x-large;
+    padding:20px;
+    color:white;
+    background-color: #818181;
+
+}
