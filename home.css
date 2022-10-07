@@ -121,7 +121,7 @@
     background-color:red;
     color:white;
 }
-.fa-linkedin{
+.fa-twitter{
     background-color:blue;
     color:white;
 }
@@ -167,8 +167,6 @@
     }
     .sidebar{
         height:100%;
-        width:30%;
-        position:fixed;
         z-index:1;
         top:0;
         left:0;
@@ -176,6 +174,7 @@
         overflow-x:hidden;
         transition:0.5s;
         padding-top:60px;
+        position:fixed;
     }
     .sidebar a{
         padding:8px 8px 16px 32px;
@@ -222,7 +221,7 @@
         height:100%;
         background-color:skyblue;
     }
-        @media only screen and (max-width:60%) {.menu,.navbar,.sidebar{
+        @media  screen and (max-width:60%) {.menu,.navbar,.sidebar{
 width:60%;
         }
             
