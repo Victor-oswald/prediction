@@ -193,8 +193,7 @@ top:0;
 
 }
 .fa{
-    position: absolute;
-    left: 0;
+    position:static;
     bottom:0;
     padding:10px;
     font-size:200px;
@@ -203,4 +202,21 @@ top:0;
     text-decoration:none;
     text-align:center;
     border-radius: 100%;
+}
+.fa-facebook{
+    background-color:inherit;
+    color:blue;
+}
+.fa-youtube{
+    background-color:inherit;
+    color:red;
+    
+}
+.fa-twitter{
+    background-color:inherit;
+    color:blue;
+}
+.fa-telegram{
+    background-color:inherit;
+    color:blue;
 }
