@@ -171,16 +171,17 @@ top:0;
     animation:infinite;
     animation-name: vip;
     animation-duration: 0.5s;
+    animation-direction: reverse;
     background-color: inherit;
     border:none ;
     float:right;
-    position:static;
+    position:absolute;
     right:0;
-    top:0;
+    bottom:0;
 
 }
 @keyframes vip{
-    from{font-size:25px;}
+    from{font-size:0px;}
     to {font-size:70px;}
 }
 #predhome, #predanalysis, #prednews{
@@ -190,4 +191,16 @@ top:0;
     color:white;
     background-color: #818181;
 
+}
+.fa{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    padding:10px;
+    font-size:200px;
+    width:50px;
+    text-align:center;
+    text-decoration:none;
+    text-align:center;
+    border-radius: 100%;
 }

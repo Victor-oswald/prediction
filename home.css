@@ -227,6 +227,8 @@ width:60%;
         }
             
         
+    }@media screen and (max-width:460px){
+        .quote{text-align: left;}
     }
  
  
