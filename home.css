@@ -121,7 +121,7 @@
     background-color:red;
     color:white;
 }
-.fa-twitter{
+.fa-linkedin{
     background-color:blue;
     color:white;
 }
@@ -167,15 +167,15 @@
     }
     .sidebar{
         height:100%;
+        width:90%;
+        position:fixed;
         z-index:1;
         top:0;
         left:0;
         background-color:#111;
-        overflow-x:scroll;
+        overflow-x:hidden;
         transition:0.5s;
         padding-top:60px;
-        position:fixed;
-        overflow-y: visible;
     }
     .sidebar a{
         padding:8px 8px 16px 32px;
@@ -222,13 +222,11 @@
         height:100%;
         background-color:skyblue;
     }
-        @media  screen and (max-width:60%) {.menu,.navbar,.sidebar{
-width:60%;
+        @media only screen and (max-width:620px) {.menu,.navbar,.sidebar{
+width:90%;
         }
             
         
-    }@media screen and (max-width:460px){
-        .quote{text-align: left;}
     }
  
  
