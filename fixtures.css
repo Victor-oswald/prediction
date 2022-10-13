@@ -164,3 +164,59 @@ top:0;
 #tpgoalmenubtn :hover .tpgoalmenu a{
     display:block;
 }
+#vip{
+    color:red;
+    padding:none;
+    font-size:25px;
+    animation:infinite;
+    animation-name: vip;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+    background-color: inherit;
+    border:none ;
+    float:right;
+    position:fixed;
+    right:0;
+    bottom:0;
+
+}
+@keyframes vip{
+    from{font-size:0px;}
+    to {font-size:70px;}
+}
+#predhome, #predanalysis, #prednews{
+    text-transform: uppercase;
+    font-size: x-large;
+    padding:20px;
+    color:white;
+    background-color: #818181;
+
+}
+.fa{
+    position:static;
+    bottom:0;
+    padding:10px;
+    font-size:200px;
+    width:50px;
+    text-align:center;
+    text-decoration:none;
+    text-align:center;
+    border-radius: 100%;
+}
+.fa-facebook{
+    background-color:inherit;
+    color:blue;
+}
+.fa-youtube{
+    background-color:inherit;
+    color:red;
+    
+}
+.fa-twitter{
+    background-color:inherit;
+    color:blue;
+}
+.fa-telegram{
+    background-color:inherit;
+    color:blue;
+}

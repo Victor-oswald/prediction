@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head><!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S02YTT7RXK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-S02YTT7RXK');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keyword"
         content="betting; lottery; prediction; bet; football betting; sure prediction; game prediction; football correct score
@@ -16,9 +25,9 @@
     <div class="container">
         <div class="navbar">
             <span class="menu" style="font-size:100%; cursor:pointer" onclick="openNavigation()">MENU</span>
-            <a href="higlights.html" target="_blank">Highlights</a>
-            <a href="Match updates" target="_blank">Analysis</a>
-            <a href="Football news" target="_blank">News</a>
+            <a href="highlights.html" target="_blank">Highlights</a>
+            <a href="analysis.html" target="_blank">Analysis</a>
+            <a href="news.html" target="_blank">News</a>
         </div>
         </br></br></br>
         <img alt="icon" style="width:8%;height:8%;border:none;border-radius:80%; position:fixed;top:0"
@@ -32,7 +41,7 @@
             <div class="htbbtn-content" id="table-content">
                 <a href="premier league tables.html">premier league</a></br></br>
                 <a href="serie a table.html">Serie A table</a></br>
-                <a href="Top goal scorers.html">EPL Top goal scorers</a></br>
+                <a href="Top goal scorers.html"> Top goal scorers</a></br>
                 <a href="champions league table.html">Champions League</a>
             </div>
             <button id="hfbtn" onclick="fixtures()">Fixtures</button></br></br>
@@ -42,18 +51,18 @@
                 <a href="champions league fixtures.html">Champions league</a></br></br>
                 <a href="laliga.html">Laliga </a></br></br>
                 <a href="">League 1</a></br></br>
-                <a href="">Bundesliga</a></br></br>
+                <a href="">Europa league</a>
             </div>
             <button id="abtbtn" onclick="About()">About us</button>
         </div>
         <script>
             function openNavigation() {
-                document.getElementById("mySidebar").style.width = "250px"
+                document.getElementById("mySidebar").style.width = "60%";
             }
             function closeNavigation() {
                 document.getElementById("mySidebar").style.width = "0px";
-
             }
+            document.getElementById("mySidebar").onload.style.display="none"
 
             function table() {
                 var tmenu = document.getElementById("table-content");
@@ -74,7 +83,7 @@
             }
             function Prediction(){
             var prediction=document.getElementById("predbtn");
-            prediction=window.location.href="prediction.html";}
+            prediction=window.location.href="predictions.html";}
             function About(){
 var about=document.getElementById("abtbtn");
 about=window.location.href="about us.html";}
@@ -94,20 +103,19 @@ for(var i=0; i<result.length; ++i){
         <div class="page">
             <center></br></br>
 
-                <div>
-                    <input type="search" id="search" placeholder="search anything" name="search"
-                        style="width: 50%; height:30px;background-color: aliceblue;" />
-                    <button type="submit" style="height:30px;">search</button>
+                <div style="background-color:#333;">
+                    <h4>Choose your favourite league</h4>
                 </div>
-                <div id="search-result" style="display:none"></div>
-            </center>
+                <div>
+                    <button>Premier League</button><button>Champions League</button><button>Europa League</button><button>Laliga</button><button>Serie A</button><button>League 1</button><button>More</button>
+                </div>
 
-            <p class="quote"><i>Over the years now, betting has become the means of extra income for sports lovers more
+            <p class="quote"><i>Over the years, betting has become the means of extra income for sports lovers more
                     especially the football lovers</br>
                     it really contributes immensly for the livelihoods of many individuals who take interest in it.</br>
-                    but the question asked by many is where exactly can these games be analised accurately.</br> Though
+                    but the question asked by many is where exactly can these games be analysed accurately.</br> Though
                     matches can't be analysed 100% acurately,
-                    but based on statistics,</br> it can be analised almost accurately by some experts and here we are
+                    but based on statistics,</br> it can be analysed almost accurately by some experts and here we are
                     to provide you with the best match predictions based solely on statistics.
                 </i></p>
             <h1 class="fix">MATCH FIXTURES FOR THE WEEK</h1>
@@ -200,11 +208,15 @@ for(var i=0; i<result.length; ++i){
                 <div class="other">
                 </div>
             </div>
+            <div></br></br></br>
+                <img src="images.jpeg.jpg" style="width:300px"/>
+                <a href="news.html">Erling haaland's hat tricks story.</a>
+            </div>
             <center>
                 <div>
-                    <a href="##" class="fa fa-facebook"></a>
-                    <a href="##" class="fa fa-telegram"></a>
-                    <a href="##" class="fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100066426476006" class="fa fa-facebook"></a>
+                    <a href="t.me/oswaldsoccer" class="fa fa-telegram"></a>
+                    <a href="https://twitter.com/VictorOswald01?t=KWsu3yQsFczxfyA5XNSGGg&s=01" class="fa fa-twitter"></a>
                     <a href="https://youtube.com/channel/UCq-o4MyDCushNHS9VONNRiQ" class="fa fa-youtube"></a>
                 </div>
             </center>
