@@ -253,6 +253,9 @@ width:60%;
         from{right:0px;}
         to{right:1500px;}
     }
+    @media  screen  {
+        #writeUP{font-size: x-large;}
+    }
     
  
  
