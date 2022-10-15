@@ -254,7 +254,7 @@ width:60%;
         to{right:1500px;}
     }
     @media  screen  {
-        #writeUP{font-size: x-large;}
+        #writeUP{font-size:small;}
     }
     
  
