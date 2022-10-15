@@ -255,6 +255,8 @@ width:60%;
     }
     @media  screen  {
         #writeUP{font-size:small;}
+        #letter{font-size: xx-large;}
+        #nlsbtn{width: 20%;}
     }
     
  
