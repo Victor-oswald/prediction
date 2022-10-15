@@ -230,16 +230,6 @@ width:60%;
     }@media screen and (max-width:460px){
         .quote{text-align: left;
         font-size: small;}
-        #writeUp{
-            font-size: x-large;
-        }
-        #letter{
-            font-size: xx-large;
-        }
-        #nlsbtn{
-            width:20%;
-        }
-    }
     #writeUP{
         text-transform: uppercase;
         animation: infinite;
@@ -248,23 +238,24 @@ width:60%;
         color:skyblue;
         font-size: 30px;
         position:relative;
+        animation-delay: 2s;
     }
     @keyframes writeUP{
         from{right:0px;}
         to{right:1500px;}
     }
     @media  screen  {
-        #writeUP{font-size:large;}
+        #writeUP{font-size:larger;}
     }
-        @media screen {
-            
-        #letter{font-size: xx-large;}
+    @media screen{
+        .nlsbtn{width:20%;}
+    }
+    @media screen {
+        .letter{font-size: xx-large;}
+    }
+    @media screen {
+        @keyframes writeUP {
+         from{right:0px;} 
+         to{right:500px}  
         }
-        @media screen {
-        #nlsbtn{width: 20%;}
     }
-    
- 
- 
-
-    
