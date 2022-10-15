@@ -239,6 +239,7 @@ width:60%;
         font-size: 30px;
         position:relative;
         animation-delay: 2s;
+        line-break: none;
     }
     @keyframes writeUP{
         from{right:0px;}
@@ -258,4 +259,14 @@ width:60%;
          from{right:0px;} 
          to{right:500px}  
         }
+    }
+    .nlsbtn{
+      width:10%;
+      height: 40px; 
+      background-color: green; 
+    }
+    .letter{
+        color:white;
+        background-color: #333;
+        font-size: 50px;
     }
