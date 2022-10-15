@@ -230,6 +230,15 @@ width:60%;
     }@media screen and (max-width:460px){
         .quote{text-align: left;
         font-size: small;}
+        #writeUp{
+            font-size: x-large;
+        }
+        #letter{
+            font-size: xx-large;
+        }
+        #nlsbtn{
+            width:20%;
+        }
     }
     #writeUP{
         text-transform: uppercase;
@@ -244,6 +253,7 @@ width:60%;
         from{right:0px;}
         to{right:1500px;}
     }
+    
  
  
 
