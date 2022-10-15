@@ -254,8 +254,12 @@ width:60%;
         to{right:1500px;}
     }
     @media  screen  {
-        #writeUP{font-size:small;}
+        #writeUP{font-size:large;}
+        @media screen {
+            
         #letter{font-size: xx-large;}
+        }
+        @media screen {
         #nlsbtn{width: 20%;}
     }
     
