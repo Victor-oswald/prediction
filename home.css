@@ -231,6 +231,19 @@ width:60%;
         .quote{text-align: left;
         font-size: small;}
     }
+    #writeUP{
+        text-transform: uppercase;
+        animation: infinite;
+        animation-name: writeUP;
+        animation-duration: 20s;
+        color:skyblue;
+        font-size: 30px;
+        position:relative;
+    }
+    @keyframes writeUP{
+        from{right:0px;}
+        to{right:1500px;}
+    }
  
  
 
