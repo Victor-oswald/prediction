@@ -105,7 +105,7 @@ overflow:auto;
     width:5%;
     height:80%;
 }
-#serie-a tr:nth-child(even),#premier tr:nth-child(even), #Tp-Gscorers tr:nth-child(even), .groupA tr:nth-child(odd), .groupB tr:nth-child(odd), .groupC tr:nth-child(odd), .groupD tr:nth-child(odd), .groupE tr:nth-child(odd), .groupF tr:nth-child(odd), .groupG tr:nth-child(odd), .groupH tr:nth-child(odd){
+#serie-a tr:nth-child(even),#premier tr:nth-child(even), #Tp-Gscorers tr:nth-child(even), .groupA tr:nth-child(even), .groupB tr:nth-child(even), .groupC tr:nth-child(even), .groupD tr:nth-child(even), .groupE tr:nth-child(even), .groupF tr:nth-child(even), .groupG tr:nth-child(even), .groupH tr:nth-child(even){
     background-color: #f2f2f2;
 }
 #serie-a tr:hover,#premier tr:hover, #Tp-Gscorers tr:hover,.groupA tr:hover, .groupB tr:hover, .groupC tr:hover, .groupD tr:hover, .groupE tr:hover, .groupF tr:hover, .groupG tr:hover, .groupH tr:hover{
@@ -218,4 +218,24 @@ top:0;
 .fa-telegram{
     background-color:inherit;
     color:blue;
+}
+.anatable{
+    border:collapse;
+    width:70%;
+}
+.anatable th{
+    text-align: center;
+    font-size: x-large;
+    background-color: skyblue;
+}
+.anatable td{
+    text-align: center;
+    font-size:larger;
+    border:1px solid black;
+}
+.anatable tr :nth-child(even){
+    background-color:aliceblue;
+}
+.anatable tr:hover{
+    background-color: #ddd;
 }
