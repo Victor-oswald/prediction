@@ -81,6 +81,7 @@
 @media  screen and(max-height:450px){
     .sidebar{padding-top: 15px;}
     .sidebar a{font-size: 18px;}
+    .end{width:50%;}
 }
 .ita{
     text-align: center;
@@ -91,7 +92,7 @@
     padding:10px;
     outline: green;
 }
-.fra{
+.fra,.spa, .other{
     text-align:center;
     background-color:aliceblue;
     color:red;

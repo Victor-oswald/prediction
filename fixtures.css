@@ -56,7 +56,6 @@ h6{
 }
 .premier-tb{
     width:fit-content;
-    background-color:
 }
 .premier-drop-content{
     display: none;
@@ -101,7 +100,7 @@ overflow:auto;
     text-align: left;
     padding-top:15px;
     padding-bottom:15px;
-    background-color:blue;
+    background-color:#818181;
     color:white;
     width:5%;
     height:80%;
@@ -118,7 +117,7 @@ overflow:auto;
  background-color: black; 
 float:left;
 height: fit-content;
-padding: none;
+padding:10px;
 position: sticky;
 top:0;
 }
