@@ -233,9 +233,15 @@ top:0;
     font-size:larger;
     border:1px solid black;
 }
-.anatable tr :nth-child(even){
-    background-color:aliceblue;
-}
+
 .anatable tr:hover{
     background-color: #ddd;
+}
+
+@media screen {
+  .anatable th{
+    font-size: large;
+    text-align: center;
+  }  
+  .anatable{width:70%}
 }
