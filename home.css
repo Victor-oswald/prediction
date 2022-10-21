@@ -70,10 +70,8 @@
     text-shadow: 100px;
 }
 .end{
-    background-color:black;
     color:white;
     font-size:70%;
-    text-transform:uppercase;
     text-align:center;
     width:40%;
 
@@ -81,7 +79,6 @@
 @media  screen and(max-height:450px){
     .sidebar{padding-top: 15px;}
     .sidebar a{font-size: 18px;}
-    .end{width:50%;}
 }
 .ita{
     text-align: center;
