@@ -79,8 +79,9 @@
     .sidebar a{font-size: 18px;}
 }
 @media screen {
-  .end1{width:40%;
-        font-size: small;}  
+  .end1{text-align: center;
+        font-size: smaller;
+        }  
 }
 .ita{
     text-align: center;
