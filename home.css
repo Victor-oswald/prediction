@@ -71,7 +71,7 @@
 }
 .end{
     text-align:center;
-    width:40%;
+    width:100%;
 
 }
 @media  screen and(max-height:450px){
@@ -79,7 +79,8 @@
     .sidebar a{font-size: 18px;}
 }
 @media screen {
-  .end1{width:40%;}  
+  .end1{width:40%;
+        font-size: small;}  
 }
 .ita{
     text-align: center;
