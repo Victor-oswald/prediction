@@ -16,6 +16,7 @@
     text-decoration:dotted;
     overflow:hidden;
     max-height: 5%;
+    margin-bottom: 5px;
 }
 .dropdown{
     float:left;
@@ -56,18 +57,18 @@
     font-style: oblique;
 }
 .eng{
-    text-align: center;
+    text-align:center;
     font-size:large;
     color:red;
     outline:green;
     padding:10px;
-    background-color: aliceblue;
 }
 .quote{
     font-size:large;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 100px;
+    text-align: left;
 }
 .end{
     text-align:center;
@@ -85,7 +86,6 @@
 }
 .ita{
     text-align: center;
-    background-color: aliceblue;
     color:red;
     font-size: large;
     text-transform: uppercase;
@@ -94,7 +94,6 @@
 }
 .fra,.spa, .other{
     text-align:center;
-    background-color:aliceblue;
     color:red;
     font-size:large;
     text-transform:uppercase;
@@ -102,29 +101,24 @@
     outline:green;
 }
 .fa{
-    padding:10px;
-    font-size:200px;
-    width:50px;
-    text-align:center;
+    font-size:500px;
+    width:30px;
     text-decoration:none;
     text-align:center;
     border-radius: 100%;
+    font-weight: bolder;
 }
 .fa-facebook{
-    background-color:blue;
-    color:white;
+    color:blue;
 }
 .fa-telegram{
-    background-color:blue;
-    color:white;
+    color:blue;
 }
 .fa-youtube{
-    background-color:red;
-    color:white;
+    color:red;
 }
 .fa-twitter{
-    background-color:blue;
-    color:white;
+    color:blue;
 }
 
 
@@ -177,13 +171,14 @@
         padding-top:60px;
         position:fixed;
         overflow-y: visible;
+        
     }
     .sidebar a{
         padding:8px 8px 16px 32px;
         text-decoration:none;
         font-size:25px;
         color:#818181;
-        display:block;
+        display:inline-block;
         transition:0.3s;
         line-break: inherit;
     }
@@ -221,7 +216,6 @@
     .container{
         width:100%;
         height:100%;
-        background-color:skyblue;
     }
         @media  screen and (max-width:60%) {.menu,.navbar,.sidebar{
 width:60%;
@@ -271,4 +265,22 @@ width:60%;
         color:white;
         background-color: #333;
         font-size: 50px;
+    }
+    .Foot{
+        background-color: #333;
+    }
+    .menu1, .menu2 , .menu3{
+        width:30px;
+        height:2px;
+     margin-top: 8px;
+       background-color: white;
+       margin-left: 20px;
+       bottom: 0;
+       z-index: 1;
+       position: relative;
+    }
+    .site{
+        color:darkorange;
+        text-align:justify;
+
     }
