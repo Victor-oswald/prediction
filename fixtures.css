@@ -221,7 +221,9 @@ top:0;
 }
 .anatable{
     border:collapse;
-    width:70%;
+    width:100%;
+    height:auto;
+    
 }
 .anatable th{
     text-align: center;
