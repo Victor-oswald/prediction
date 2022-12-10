@@ -89,17 +89,8 @@ crossorigin="anonymous"></script>
             function About(){
 var about=document.getElementById("abtbtn");
 about=window.location.href="about us.html";}
-const result=[
-    "scores", "predictions", "fixtures","table","news","About"
-]
-var x=document.getElementById("search").value;
-var y=x.value;
-for(var i=0; i<result.length; ++i){
-    if(y==[i]){
-        document.getElementById("search-result").style.display="block";
-    }
-}
-        </script>
+       
+</script>
 
 
         <div class="page">
@@ -170,17 +161,21 @@ for(var i=0; i<result.length; ++i){
       </thead>
       <tbody>
         <tr>
-            <td>croatia<br>brazil</td>
-            <td>Away<br>Full Time Win</td>
+            <td>morocco<br>portugal</td>
+            <td>First Half<br>Draw</td>
         </tr>
         <tr>
-            <td>netherland<br>argentina</td>
-            <td>Goal-goal &<br>Over 2.5 goals</td>
+            <td>England<br>France</td>
+            <td>Goal-goal </td>
         </tr>
       </tbody>
         </table>
         </br>
         <button><a href='predictions.html'>See More</a></button><br><br>
+        <div>
+            <h3><em>Hear What People Are Saying About Us</em></h3><br><br>
+            <h5 id="com"></h5>
+        </div>
         
                 <div class="Foot"><br><br><br>
                     <h1>Subscribe To Our Newsletter</h1> <br><br>  
@@ -196,8 +191,8 @@ for(var i=0; i<result.length; ++i){
 <a href="about us.html"><h2>Terms of use</h2></a>
 <a href="about us.html"><h2>privacy Policy</h2></a>
 <a href="about us.html"><h2>About us</h2></a>
-<textarea rows="6" cols="30" >Comment</textarea><br><br>
-<button type="submit">Comment</button>
+<textarea cols="60" rows="8" id="comment" ></textarea><br><br>
+<button type="submit" onclick="submit()">Comment</button>
                     <h1 class="end1">&#169;: oswald 2022|| All right reserved</h1>
                     </div>
                 </div></br></br>
@@ -219,6 +214,12 @@ for(var i=0; i<result.length; ++i){
             </script>
             </div>
             </div>
+            <script>
+var com=document.getElementById('comment');
+com.addeventlistener("com",function submit(){
+    document.getElementById('com').innerText= com.value;
+});
+            </script>
             </div>
 </body>
 
