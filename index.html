@@ -124,9 +124,9 @@ about=window.location.href="about us.html";}
             <h1 class="fix">TRENDING FIXTURES FOR THE WEEK</h1>
             </br></br></br>
             <center>
-                <div style="background-color:grey;font-size:Larger">Friday, 9th December</div><br><br>
-                <button style="width: 100%; height:auto"><img src="croatia.png" style='width:100px;height:70px; float:left' /><h2>CROATIA</h2>&nbsp;&nbsp;&nbsp;<span style="float:right">16:00</span>&nbsp;&nbsp;&nbsp;<h2>BRAZIL</h2><img src="brazil.png" style='width:100px;height:70px; float:left'/></button><br><br><br><br>
-                 <button style="width: 100%; height:auto"><img src="netherland.png" style='width:100px;height:70px;float:left' /><h2>NETHERLANDS</h2>&nbsp;&nbsp;&nbsp;<span style="float:right">20:00</span>&nbsp;&nbsp;&nbsp;<h2>ARGENTINA</h2><img src="argentina.png"style='width:100px;height:70px; float:left';/></button><br><br><br><br>
+                <div style="background-color:grey;font-size:Larger">Sunday, 11th December</div><br><br>
+                <button style="width: 100%; height:auto"><img src="" style='width:100px;height:70px; float:left' /><h2>Liverpool/h2>&nbsp;&nbsp;&nbsp;<span style="float:right">15:00</span>&nbsp;&nbsp;&nbsp;<h2>Lyon</h2><img src="" style='width:100px;height:70px; float:left'/></button><br><br><br><br>
+                 <button style="width: 100%; height:auto"><img src="" style='width:100px;height:70px;float:left' /><h2>Chelsea</h2>&nbsp;&nbsp;&nbsp;<span style="float:right">15:10</span>&nbsp;&nbsp;&nbsp;<h2>Aton Villa</h2><img src=""style='width:100px;height:70px; float:left';/></button><br><br><br><br>
     
             </center>
             <div class="eng">
@@ -135,9 +135,9 @@ about=window.location.href="about us.html";}
             <div id="engother">
                 <center>
 
-               <div style="background-color:grey;font-size:Larger">Saturday, 10th December</div><br><br>
-               <button style="width: 100%; height:auto"><img src="morocco.jpeg" style='width:100px;height:70px;float:left' /><h2>MOROCCO</h2>&nbsp;&nbsp;&nbsp;<span style="float:right">16:00</span>&nbsp;&nbsp;&nbsp;<h2>PORTUGAL</h2><img src="portugal.png"style='width:100px;height:70px; float:left';/></button><br><br><br><br>
-               <button style="width: 100%; height:auto"><img src="england.png" style='width:100px;height:70px;float:left' /><h2>ENGLAND</h2>&nbsp;&nbsp;&nbsp;<span style="float:right">20:00</span>&nbsp;&nbsp;&nbsp;<h2>FRANCE</h2><img src="france.png"style='width:100px;height:70px; float:left';/></button><br><br><br><br>
+               <div style="background-color:grey;font-size:Larger">Monday, 12th December</div><br><br>
+               <button style="width: 100%; height:auto"><img src="" style='width:100px;height:70px;float:left' /><h2>Sunderland</h2>&nbsp;&nbsp;&nbsp;<span style="float:right">21:00</span>&nbsp;&nbsp;&nbsp;<h2>west Bromwich</h2><img src="portugal.png"style='width:100px;height:70px; float:left';/></button><br><br><br><br>
+               <button style="width: 100%; height:auto"><img src="" style='width:100px;height:70px;float:left' /><h2>pec Zwolle</h2>&nbsp;&nbsp;&nbsp;<span style="float:right">18:45</span>&nbsp;&nbsp;&nbsp;<h2>Helmond Sport</h2><img src=""style='width:100px;height:70px; float:left';/></button><br><br><br><br>
             </center>
             </div>
             <center> <h1>NEWS THAT YOU MAY NOT WANT TO MISS</h1> </center>
@@ -162,11 +162,11 @@ about=window.location.href="about us.html";}
       </thead>
       <tbody>
         <tr>
-            <td>morocco<br>portugal</td>
-            <td>First Half<br>Draw</td>
+            <td>Liverpool<br>Lyon</td>
+            <td>Goal-goal</td>
         </tr>
         <tr>
-            <td>England<br>France</td>
+            <td>Chelsea<br>Aston Villa</td>
             <td>Goal-goal </td>
         </tr>
       </tbody>
@@ -192,8 +192,8 @@ about=window.location.href="about us.html";}
 <a href="about us.html"><h2>Terms of use</h2></a>
 <a href="about us.html"><h2>privacy Policy</h2></a>
 <a href="about us.html"><h2>About us</h2></a>
-<textarea cols="30" rows="8" id="comment" ></textarea><br><br>
-<button type="submit" onclick="submit()">Comment</button>
+<textarea cols="30" rows="4" id="comment" ></textarea><br><br>
+<button type="submit" onclick="submit()" placeholder="comment"></button>
                     <h1 class="end1">&#169;: oswald 2022|| All right reserved</h1>
                     </div>
                 </div></br></br>
@@ -216,10 +216,10 @@ about=window.location.href="about us.html";}
             </div>
             </div>
             <script>
-var com=document.getElementById('comment');
-com.addeventlistener("com",function submit(){
-    document.getElementById('com').innerText= com.value;
-});
+function submit(){
+    var comment=document.getElementById('comment').value;
+    document.getElementById("com").innerText=comment;
+}
             </script>
             </div>
 </body>
