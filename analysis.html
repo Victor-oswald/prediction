@@ -49,12 +49,12 @@
 <em>comments</em><br><br>
 <button style="border:none; color:grey;" id="text"></button>
 <br><br>
-<div style="position:absolute; bottom:0; left:0; width:40%; height:auto">
+<div style="position:fixed; bottom:0; left:0; width:40%; height:auto">
 <textarea id="ana" rows="3" cols="20" placeholder="Share your thoughts here" style="margin-left: 10px;"></textarea>
 <button onclick="getValue()">submit</button>
 </div>
     
-<a href="predictions.html"><button style="position:absolute;right:0;bottom:0;color:red; font-size: 100%;">Go To Predictions</button></a>
+<a href="predictions.html"><button style="position:fixed;right:0;bottom:0;color:red; font-size: 100%;">Go To Predictions</button></a>
 <script>
     function getValue(){
         var com = document.getElementById('ana').value;
