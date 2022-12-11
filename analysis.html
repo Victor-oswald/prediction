@@ -33,7 +33,33 @@
 <div>
 
 </div>
-<h1 style="color:brown; text-align:center">Weekly Analysis Report</h1></br></br>
-<h1>Check back later!</h1>
+<h1 style="color:brown; text-align:center">Weekly Analysis And Review Report</h1></br></br>
+<div>
+    <h3>PORTUGAL&nbsp;&nbsp;&nbsp;<button style="color:red; font-size:large">0-1</button>&nbsp;&nbsp;&nbsp;MOROCCO<sup><button style="border:none;color:grey">goal review</button></sup></h3>
+</div><br><br>
+<em>Portugal's Defensive mistake:</em><h4>Ineffective ball control from the Portugal defence led to the interception by morocco forward(Onuahi) who made
+    a very nice distribution to team mate .<br><br>
+    <em>Morocco crossing:</em> The Morocco forwarder swinged the ball across to the center of the pitch for the  center forwarder(En-Nesyri) who discharged it sweetly.
+    <br><br>
+    <em>Forwarder, Defender, keeper clash:</em> On En-Nesyri attempt to head the ball and the attempt portugal's defender(Ruben Dias) to stop him, Portugal's keeper was somehow disturbed, denying him the balance to stop the header from Youssef and 
+    morocco to a 1-nill lead against portugal.
+</h4><br><br>
+
+<p>share your thoughts with us here</p><br><br>
+<em>comments</em><br><br>
+<button style="border:none; color:grey;" id="text"></button>
+<br><br>
+<div style="position:absolute; bottom:0; left:0; width:40%; height:auto">
+<textarea id="ana" rows="3" cols="20" placeholder="Share your thoughts here" style="margin-left: 10px;"></textarea>
+<button onclick="getValue()">submit</button>
+</div>
     
-<a href="predictions.html"><button style="position:sticky;right:0;bottom:0;color:red; font-size: 100%;">Go To Predictions</button></a>
+<a href="predictions.html"><button style="position:absolute;right:0;bottom:0;color:red; font-size: 100%;">Go To Predictions</button></a>
+<script>
+    function getValue(){
+        var com = document.getElementById('ana').value;
+        document.getElementById('text').innerText=com;
+    }
+</script>
+</body>
+</html>
