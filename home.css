@@ -116,6 +116,10 @@
         color:maroon;
         text-transform: uppercase;
     }
+    .iimage{
+        height:auto;
+        width:100%;
+    }
 }
 .fa{
     font-size:100px;
