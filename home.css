@@ -100,6 +100,14 @@
     padding:10px;
     outline:green;
 }
+.lower{
+    position:absolute;
+    top: 120%;
+    font-size: 50px;
+    color:maroon;
+    text-transform: uppercase;
+
+}
 .fa{
     font-size:100px;
     width:30px;
