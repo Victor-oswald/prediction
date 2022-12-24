@@ -111,8 +111,8 @@
 @media screen {
     .lower{
         position:absolute;
-        top: 40%;
-        font-size: 15px;
+        top: 100%;
+        font-size: 30px;
         color:maroon;
         text-transform: uppercase;
     }
