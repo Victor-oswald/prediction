@@ -223,7 +223,7 @@ top:0;
     border:collapse;
     width:100%;
     height:auto;
-    margin-left: 30%;
+    margin-left: 10%;
     
 }
 .anatable th{
@@ -234,7 +234,8 @@ top:0;
 .anatable td{
     text-align: center;
     font-size:larger;
-    border:1px solid black;
+    border:1px solid rgb(243, 237, 237);
+    color:grey
 }
 
 .anatable tr:hover{
